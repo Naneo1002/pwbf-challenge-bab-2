@@ -6,14 +6,13 @@
     <section class="row g-4 align-items-start">
         <div class="col-lg-5">
             <p class="text-danger fw-semibold text-uppercase mb-2">Kontak</p>
-            <h1 class="display-6 fw-bold mb-3">Hubungi kami untuk kolaborasi atau pertanyaan.</h1>
-            <p class="text-muted">Form di bawah ini hanya tampilan statis untuk latihan layout dan desain halaman kontak.</p>
+            <h1 class="display-6 fw-bold mb-3">Hubungi kami untuk kolaborasi.</h1>
 
             <div class="card shadow-sm border-0">
                 <div class="card-body p-4">
-                    <p class="mb-1"><strong>Email:</strong> admin@laravel.test</p>
-                    <p class="mb-1"><strong>Telepon:</strong> 0812-3456-7890</p>
-                    <p class="mb-0"><strong>Alamat:</strong> Jakarta, Indonesia</p>
+                    <p class="mb-1"><strong>Email:</strong> melannexa@gmail.com</p>
+                    <p class="mb-1"><strong>Telepon:</strong> 0821-1629-9831</p>
+                    <p class="mb-0"><strong>Alamat:</strong> Bandung, Indonesia</p>
                 </div>
             </div>
         </div>

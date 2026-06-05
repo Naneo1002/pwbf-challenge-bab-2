@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Route;
 // Halaman Beranda
 Route::get('/', function () {
     $fitur = [
-        ['icon' => '🚀', 'judul' => 'MVC Architecture', 'desc' => 'Struktur kode yang rapi dan terorganisir'],
-        ['icon' => '🗄️', 'judul' => 'Eloquent ORM',     'desc' => 'Akses database dengan cara yang elegan'],
-        ['icon' => '🎨', 'judul' => 'Blade Template',   'desc' => 'Template engine yang powerful dan fleksibel'],
+        ['icon' => '🚀', 'judul' => 'Web Development', 'desc' => 'Pembuatan website yang cepat'],
+        ['icon' => '🎨', 'judul' => 'UI/UX Design',     'desc' => 'Desain antarmuka yang menarik'],
+        ['icon' => '🔧', 'judul' => 'Website Maintenance',   'desc' => 'Pemeliharaan performa website'],
     ];
     return view('pages.home', compact('fitur'));
 })->name('home');
@@ -16,19 +16,20 @@ Route::get('/', function () {
 // Halaman Tentang
 Route::get('/tentang', function () {
     $tim = [
-        ['nama' => 'Dina Budhi Utami, M.T.', 'peran' => 'Dosen Pengampu', 'foto' => null],
-        ['nama' => 'Firayza',          'peran' => 'Asisten Lab',    'foto' => null],
-        ['nama' => 'Fahmy',           'peran' => 'Asisten Lab',    'foto' => null],
+        ['nama' => 'Ryan Gosling', 'peran' => 'CEO & Founder', 'foto' => 'ryan.jpg'],
+        ['nama' => 'Tom Holland', 'peran' => 'UI/UX Designer', 'foto' => 'tom.jpg'],
+        ['nama' => 'Fahmy', 'peran' => 'Marketing Specialist', 'foto' => 'fahmy.jpg'],
     ];
+
     return view('pages.tentang', compact('tim'));
 })->name('tentang');
 
 // Halaman Portofolio
 Route::get('/portofolio', function () {
     $proyek = [
-        ['judul' => 'Dashboard Analytics', 'kategori' => 'Web App', 'deskripsi' => 'Panel admin interaktif untuk memantau performa bisnis.', 'warna' => 'danger'],
-        ['judul' => 'Marketplace UMKM', 'kategori' => 'E-Commerce', 'deskripsi' => 'Platform jual beli sederhana untuk produk lokal.', 'warna' => 'primary'],
-        ['judul' => 'Landing Page Brand', 'kategori' => 'Marketing', 'deskripsi' => 'Desain page promosi yang modern dan cepat dimuat.', 'warna' => 'success'],
+        ['judul' => 'Website Company Profile', 'kategori' => 'Web App', 'deskripsi' => 'Website profesional untuk perusahaan manufaktur.', 'warna' => 'danger'],
+        ['judul' => 'Marketplace', 'kategori' => 'E-Commerce', 'deskripsi' => 'Platform jual beli sederhana untuk produk lokal.', 'warna' => 'primary'],
+        ['judul' => 'Dashboard Management Inventaris', 'kategori' => 'Web App', 'deskripsi' => 'Sistem monitoring stok barang berbasis web.', 'warna' => 'danger'],
     ];
 
     return view('pages.portofolio', compact('proyek'));

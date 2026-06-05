@@ -6,7 +6,6 @@
     <section class="mb-4">
         <p class="text-danger fw-semibold text-uppercase mb-2">Blog</p>
         <h1 class="display-6 fw-bold">Artikel inspiratif untuk pengembang Laravel</h1>
-        <p class="text-muted">Daftar artikel dummy yang bisa kamu gunakan sebagai contoh konten blog.</p>
     </section>
 
     <section class="row g-4">

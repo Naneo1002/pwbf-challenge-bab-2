@@ -11,10 +11,9 @@
     {{-- Jumbotron / Hero Section --}}
     <div class="p-5 mb-4 bg-dark text-white rounded-3">
         <div class="container-fluid py-3">
-            <h1 class="display-5 fw-bold text-danger">🎓 Website Challenge 13</h1>
+            <h1 class="display-5 fw-bold text-danger">Melannexa</h1>
             <p class="col-md-8 fs-4">
-                Selamat datang di modul praktikum Laravel. Mari belajar
-                membangun aplikasi web modern bersama!
+                Kami membantu bisnis, startup, dan UMKM membangun website modern.
             </p>
             <a class="btn btn-danger btn-lg" href="{{ route('portofolio') }}" role="button">
                 Lihat Portofolio →

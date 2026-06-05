@@ -6,7 +6,6 @@
     <section class="mb-4">
         <p class="text-danger fw-semibold text-uppercase mb-2">Portofolio</p>
         <h1 class="display-6 fw-bold">Proyek-proyek yang pernah kami bangun</h1>
-        <p class="text-muted">Berikut contoh tampilan karya digital sederhana dengan desain modern dan struktur yang mudah dikembangkan.</p>
     </section>
 
     <section class="row g-4">
