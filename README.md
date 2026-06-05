@@ -1,8 +1,75 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Website Challenge
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Project Laravel sederhana yang sudah dilengkapi dengan 5 Blade Component reusable untuk mempercepat pembuatan tampilan.
+
+## Daftar Component
+
+### 1. <x-alert>
+Komponen notifikasi dengan tipe `success`, `danger`, `warning`, dan `info`.
+
+Contoh:
+
+```blade
+<x-alert type="success" message="Data berhasil disimpan." />
+
+<x-alert type="warning">
+    Harap cek kembali form sebelum dikirim.
+</x-alert>
+```
+
+### 2. <x-card>
+Komponen card dengan slot untuk judul, isi, dan footer.
+
+Contoh:
+
+```blade
+<x-card title="Profil Pengguna" class="mb-4">
+    Isi konten card berada di sini.
+
+    <x-slot:footer>
+        <x-button variant="outline">Edit Profil</x-button>
+    </x-slot:footer>
+</x-card>
+```
+
+### 3. <x-badge>
+Komponen badge/label dengan warna yang dapat dikustomisasi.
+
+Contoh:
+
+```blade
+<x-badge color="success">Aktif</x-badge>
+<x-badge color="warning">Pending</x-badge>
+<x-badge color="danger">Urgent</x-badge>
+```
+
+### 4. <x-button>
+Komponen tombol dengan variant `primary`, `secondary`, dan `outline`.
+
+Contoh:
+
+```blade
+<x-button variant="primary">Simpan</x-button>
+<x-button variant="secondary">Batal</x-button>
+<x-button variant="outline">Lihat Detail</x-button>
+```
+
+### 5. <x-breadcrumb>
+Komponen breadcrumb navigasi untuk membantu pengguna memahami posisi halaman.
+
+Contoh:
+
+```blade
+<x-breadcrumb :items="[
+    ['label' => 'Beranda', 'url' => '/'],
+    ['label' => 'Portofolio', 'url' => route('portofolio')],
+    ['label' => 'Detail Project'],
+]" />
+```
+
+## Tips Penggunaan
+
+- Semua component berada di `resources/views/components/`.
+- Anda dapat menambahkan kelas tambahan melalui atribut HTML seperti `class="mb-3"`.
+- Komponen ini sudah menggunakan Bootstrap untuk tampilan yang konsisten.
+
