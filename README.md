@@ -1,8 +1,11 @@
-# Website Challenge
+# Identitas Mahasiswa
+### Nama: Neo Sheyka Isnaeni
+### NIM: 230102105
+### Kelas: IF23B
+### Mata Kuliah: Pemrograman Web Berbasis Framework
+### Dosen Pengampu: Dina Budhi Utami S.kom., M.T.
 
-Project Laravel sederhana yang sudah dilengkapi dengan 5 Blade Component reusable untuk mempercepat pembuatan tampilan.
-
-## Daftar Component
+# Daftar Component
 
 ### 1. <x-alert>
 Komponen notifikasi dengan tipe `success`, `danger`, `warning`, dan `info`.
